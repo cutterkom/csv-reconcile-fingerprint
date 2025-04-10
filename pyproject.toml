@@ -24,7 +24,5 @@ CI = "https://github.com/cutterkom/csv-reconcile-fingerprint/actions"
 [project.optional-dependencies]
 test = ["pytest"]
 
-[project.entry-points]
-csv_reconcile.scorers = {
-    "fingerprint" = "csv_reconcile_fingerprint"
-}
+[project.entry-points."csv_reconcile.scorers"]
+fingerprint = "csv_reconcile_fingerprint"
