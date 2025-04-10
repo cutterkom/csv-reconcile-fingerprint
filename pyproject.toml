@@ -9,7 +9,9 @@ license = {text = "Apache-2.0"}
 classifiers = [
     "License :: OSI Approved :: Apache Software License"
 ]
-dependencies = []
+dependencies = [
+    "csv-reconcile >=0.3.2" 
+]
 
 [build-system]
 requires = ["setuptools>=61.0"]
