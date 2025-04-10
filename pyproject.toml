@@ -10,7 +10,8 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License"
 ]
 dependencies = [
-    "csv-reconcile >=0.3.2" 
+    "csv-reconcile",
+    "unidecode"
 ]
 
 [build-system]
