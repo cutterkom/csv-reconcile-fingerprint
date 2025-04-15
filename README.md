@@ -7,15 +7,16 @@
 
 A scoring plugin for csv-reconcile using fingerprint clustering.
 
-## Installation
+The resulting strings are compared with Jaccard distance.
+
+## Installation and Usage
 
 Install this library using `pip`:
 ```bash
-pip install csv-reconcile-fingerprint
+pip install csv-reconcile
 ```
-## Usage
 
-Usage instructions go here.
+This a plugin to the csv reconciliation plugin. So you just have to install [csv reconcile package]() and specify the scorer with '--scorer fingerprint' when initiating the reconciliation service.
 
 ## Development
 
