@@ -1,6 +1,6 @@
 [project]
 name = "csv-reconcile-fingerprint"
-version = "0.1"
+version = "0.1.8"
 description = "A scoring plugin for csv-reconcile using fingerprint clustering."
 readme = "README.md"
 requires-python = ">=3.8"
